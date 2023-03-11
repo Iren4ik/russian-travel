@@ -1,0 +1,6 @@
+.header__lang-links {
+    padding: 14px 0 8px;
+    display: flex;
+    justify-content: end;
+    column-gap: 18px;
+}
