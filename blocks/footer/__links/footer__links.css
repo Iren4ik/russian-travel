@@ -1,0 +1,13 @@
+.footer__links {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  list-style: none;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1;
+}

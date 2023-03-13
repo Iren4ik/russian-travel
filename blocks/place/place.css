@@ -1,6 +1,7 @@
 .place {
+  padding-bottom: 50px;
+
   font-family: 'Inter';
   color: #FFFFFF;
   font-style: normal;
-  margin-bottom: 50px;
 }
