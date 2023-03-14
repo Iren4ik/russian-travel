@@ -1,4 +1,22 @@
 .logo {
-    max-width: 142px;
-    object-fit: cover;
+    max-width: calc(100vw/2.254);
+    object-fit: contain;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    max-width: calc(100%/4.36);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    max-width: calc(100vw/5.818);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .logo {
+    max-width: calc(100vw/7.272);
+  }
 }

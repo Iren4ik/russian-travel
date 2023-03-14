@@ -6,3 +6,15 @@
     display: block;
     margin: auto;
 }
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    width: 90.625%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    width: 76.88%;
+  }
+}

@@ -2,6 +2,24 @@
     padding: 64px 5%;
 
     color: #FFFFFF;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    padding: 88px 3.125%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    padding: 92px 4.688%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    padding: 92px 3.75%;
+  }
 }
