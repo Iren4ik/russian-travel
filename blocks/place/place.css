@@ -1,7 +1,37 @@
 .place {
   padding-bottom: 50px;
 
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   color: #FFFFFF;
   font-style: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 47.22% 1fr;
+    width: 93.75%;
+    column-gap: 28px;
+    row-gap: 48px;
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    grid-template-columns: 47.41% 1fr;
+    width: 90.63%;
+    max-width: 928px;
+    column-gap: 32px;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    grid-template-columns: 46.75% 1fr;
+    column-gap: 40px;
+    max-width: 984px;
+  }
 }

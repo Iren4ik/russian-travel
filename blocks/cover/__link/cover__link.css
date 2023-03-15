@@ -1,18 +1,19 @@
 .cover__link {
-  margin: 0;
+  margin: 0 auto;
 
   color: #FFFFFF;
   text-decoration: none;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   text-align: center;
 
   background-image: url(../../../images/sprint-3-images/cover-trains.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   width: 100vw;
   height: calc(100vw/1.6);
+  max-width: 1180px;
 
   display: flex;
   flex-direction: column;

@@ -5,18 +5,7 @@
 
 @media screen and (min-width: 768px) {
   .logo {
-    max-width: calc(100%/4.36);
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .logo {
-    max-width: calc(100vw/5.818);
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .logo {
-    max-width: calc(100vw/7.272);
+    width: 176px;
+    height: 52px;
   }
 }
