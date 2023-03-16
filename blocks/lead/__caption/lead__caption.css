@@ -4,9 +4,10 @@
     max-width: 984px;
 
     font-weight: 400;
-    font-size: 0.63rem;
+    font-size: 10px;
     line-height: 1.4;
     letter-spacing: .09rem;
+    font-style: normal;
     text-transform: uppercase;
 }
 
