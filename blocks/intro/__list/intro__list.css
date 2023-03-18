@@ -1,14 +1,9 @@
 .intro__list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 1.5;
-    font-style: normal;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  line-height: 1.5;
+  font-style: normal;
 }
 
-.intro__list .intro__list-number {
-    font-weight: 400;
-}
